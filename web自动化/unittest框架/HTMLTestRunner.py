@@ -575,7 +575,7 @@ class _TestResult(TestResult):
             sys.stderr.write(str(test))
             sys.stderr.write('\n')
         else:
-            sys.stderr.write('../../奇迹课堂/素材')
+            sys.stderr.write('../../测试用例报告')
 
     def addError(self, test, err):
         self.error_count += 1
